@@ -80,13 +80,33 @@ nav {
     font-size: 3.2em;
   }
 
+  p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: large;
+  }
+
   .content,
   .integrantes,
   .discografia,
+  .videos,
   .contacto {
+    display: flex;
+    flex-direction: column;
     height: 100vh;
     background-color: whitesmoke;
     padding: 10px 20%;
+  }
+
+  .discografia .player iframe {
+    background-color: transparent;
+  }
+
+  .player2 {
+    background-image: url(https://content.r9cdn.net/rimg/dimg/78/70/001b704a-city-15939-18738286522.jpg?width=1366&height=768&xhint=1483&yhint=964&crop=true);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
   }
 
   .content h2 {
@@ -135,6 +155,24 @@ nav {
   /* Media queries para mobile */
   @media (max-width: 480px) {
 
+    .parallax {
+      background-image: url(/assets/img/cadillacdiablo.jpg);
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 50vh;
+  }
+  
+  .parallax2 {
+      background-image: url(/assets/img/banner2.jpg);
+      background-attachment: fixed;
+      background-position: top;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 50vh;
+  }
+
     .logo img {
       height: 10em;
       border-radius: 50%;
@@ -142,13 +180,29 @@ nav {
       justify-content: center;
       align-items: center;
       position: absolute;
-      bottom: 5%;
+      bottom: 55%;
       left: 30%;
       z-index: 1;
     }
 
     .dropdown {
       display: flex;
+    }
+
+    .dropdown button {
+      background-color: black;
+      color: white;
+      margin: 5px;
+      font-family: SF-Americana;
+      font-size: 2rem;
+    }
+
+    .dropdown-menu {
+      background-color: lightgray;
+    }
+
+    .dropdown-item {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 
     nav {
@@ -185,19 +239,31 @@ nav {
       font-size: 2rem;
       color: #fff;
     }
-
-    .content,
+    
     .integrantes,
     .discografia,
+    .videos,
     .contacto {
       height: 150vh;
       background-color: whitesmoke;
+      padding: 0;
+    }
+
+    .youtube {
+      width: 100%;
+    }
+
+    .content {
+      height: 100vh;
+      width: 100%;
+      padding: 0;
     }
 
     .content h2 {
       font-family: SF-Americana;
       text-align: center;
-      font-size: 5rem;
+      font-size: 3.5rem;
+      margin: 30px 0;
     }
 
     .conciertos ul {
@@ -210,9 +276,10 @@ nav {
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      top: 130%;
+      top: 70%;
       position: absolute;
-      width: 60%;
+      width: 100%;
+      margin: 0;
     }
 
     .content ul li {
@@ -234,6 +301,7 @@ nav {
       background-color: #000;
       color: #fff;
       text-align: center;
+      align-items: last baseline;
       padding: 40px 0;
       margin: 0;
     }
