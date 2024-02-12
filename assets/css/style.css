@@ -85,6 +85,12 @@ nav {
     padding: 10px 20%;
   }
 
+  .content h2 {
+    font-family: SF-Americana;
+    text-align: center;
+    font-size: 8rem;
+  }
+
   .conciertos ul {
     border: 3px solid black;
     border-radius: 20px;
@@ -103,8 +109,16 @@ nav {
   .content ul li {
     color: #fff;
     list-style-type: disc;
-    font-family: SF-Americana;
-    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+  }
+
+  .content ul li span {
+    color: #fff;
+    list-style-type: disc;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    text-decoration: underline;
   }
 
   footer {
