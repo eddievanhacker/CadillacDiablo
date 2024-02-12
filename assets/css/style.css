@@ -5,11 +5,11 @@
 
 @font-face {
     font-family: "SF-Americana";
-    src: url("/assets/font/SF-Americana.ttf");
+    src: url("./assets/font/SF-Americana.ttf");
 }
 
 .parallax {
-    background-image: url(/assets/img/cadillacdiablo.jpg);
+    background-image: url(./assets/img/cadillacdiablo.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -18,7 +18,7 @@
 }
 
 .parallax2 {
-    background-image: url(/assets/img/banner2.jpg);
+    background-image: url(./assets/img/banner2.jpg);
     filter: grayscale(90%);
     background-attachment: fixed;
     background-position: top;
