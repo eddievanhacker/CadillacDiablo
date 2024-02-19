@@ -9,7 +9,7 @@
 }
 
 .parallax {
-    background-image: url(../assets/img/cadillacdiablo.jpg);
+    background-image: url(./assets/img/cadillacdiablo.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -18,7 +18,7 @@
 }
 
 .parallax2 {
-    background-image: url(../assets/img/banner2.jpg);
+    background-image: url(./assets/img/banner2.jpg);
     background-attachment: fixed;
     background-position: top;
     background-repeat: no-repeat;
@@ -160,7 +160,7 @@
   @media (max-width: 480px) {
 
     .parallax {
-      background-image: url(/assets/img/cadillacdiablo.jpg);
+      background-image: url(./assets/img/cadillacdiablo.jpg);
       background-attachment: fixed;
       background-position: center;
       background-repeat: no-repeat;
@@ -169,7 +169,7 @@
   }
   
   .parallax2 {
-      background-image: url(/assets/img/banner2.jpg);
+      background-image: url(./assets/img/banner2.jpg);
       background-attachment: fixed;
       background-position: top;
       background-repeat: no-repeat;
