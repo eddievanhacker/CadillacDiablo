@@ -1,0 +1,60 @@
+.content,
+.integrantes,
+.discografia,
+.videos,
+.contacto {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: whitesmoke;
+  padding: 10px 20%;
+}
+
+.discografia .player iframe {
+  background-color: transparent;
+}
+
+.player2 {
+  background-image: url(https://content.r9cdn.net/rimg/dimg/78/70/001b704a-city-15939-18738286522.jpg?width=1366&height=768&xhint=1483&yhint=964&crop=true);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.content h2 {
+  font-family: SF-Americana;
+  text-align: center;
+  font-size: 8rem;
+}
+
+.conciertos ul {
+  border: 3px solid black;
+  border-radius: 20px;
+  box-shadow: 0px 0px 12px 5px rgba(0, 0, 0, 0.3);
+  background-color: #000;
+  padding: 10px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 130%;
+  position: absolute;
+  width: 60%;
+}
+
+.content ul li {
+  color: #fff;
+  list-style-type: disc;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: x-large;
+}
+
+.content ul li span {
+  color: #fff;
+  list-style-type: disc;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: x-large;
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=contenido.css.map */
