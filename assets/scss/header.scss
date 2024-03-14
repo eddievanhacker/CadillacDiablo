@@ -61,11 +61,10 @@
     text-decoration: none;
     font-family: SF-Americana;
     font-size: 3em;
-  }
-
-  .nav-link:hover {
-    color: red;
-    transition: 0.5s;
+    &:hover {
+      color: red;
+      transition: 0.5s;
+    }
   }
 
   .nav-link:active {
