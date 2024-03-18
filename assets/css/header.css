@@ -62,13 +62,11 @@
   font-family: SF-Americana;
   font-size: 3em;
 }
-
 .nav-link:hover {
   color: red;
   transition: 0.5s;
 }
-
-.nav-link:active {
+.nav-link:hover:active {
   color: blue;
   transition: 0.1s;
   font-size: 3.2em;
@@ -79,7 +77,5 @@ p {
   text-align: center;
   font-size: large;
 }
-
-
 
 /*# sourceMappingURL=header.css.map */

@@ -64,13 +64,12 @@
     &:hover {
       color: red;
       transition: 0.5s;
+      &:active {
+        color: blue;
+        transition: 0.1s;
+        font-size: 3.2em;
+      }
     }
-  }
-
-  .nav-link:active {
-    color: blue;
-    transition: 0.1s;
-    font-size: 3.2em;
   }
 
   p {
