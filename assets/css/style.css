@@ -1,3 +1,4 @@
+/* Variables */
 * {
   padding: 0;
   margin: 0;
@@ -15,7 +16,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 50vh;
+    height: 70vh !important;
   }
   .parallax2 {
     background-image: url(../img/banner2.jpg);
@@ -23,7 +24,7 @@
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 50vh;
+    height: 70vh;
   }
   .logo img {
     height: 10em;
@@ -33,7 +34,7 @@
     align-items: center;
     position: absolute;
     bottom: 55%;
-    left: 30%;
+    left: 30% !important;
     z-index: 1;
   }
   /*
@@ -141,14 +142,9 @@
     height: 100vh;
     width: 100%;
     padding: 0;
+    margin: 0;
   }
-  .content h2 {
-    font-family: SF-Americana;
-    text-align: center;
-    font-size: 3.5rem;
-    margin: 30px 0;
-  }
-  .conciertos ul {
+  .content ul {
     border: 3px solid black;
     border-radius: 20px;
     box-shadow: 0px 0px 12px 5px rgba(0, 0, 0, 0.3);
@@ -176,6 +172,12 @@
     font-size: x-large;
     text-decoration: underline;
   }
+  .content h1 {
+    font-family: SF-Americana;
+    text-align: center;
+    font-size: 4.5rem !important;
+    margin: 10px 0 0 0;
+  }
   footer {
     background-color: #000;
     color: #fff;
@@ -185,6 +187,5 @@
     margin: 0;
   }
 }
-
 
 /*# sourceMappingURL=style.css.map */
